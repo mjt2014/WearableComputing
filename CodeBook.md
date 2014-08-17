@@ -56,42 +56,42 @@ Volunteers values range from 1:30
 
 3       tBodyAccstdX
 4       tBodyAccstdY
-5       tBodyAccstdZ
+5       tBodyAccstdZ  
 -time signal;body signal; body acceleration;standard deviation;X,Y & Z axial
 
 6   tGravityAccmeanX
 7   tGravityAccmeanY
-8   tGravityAccmeanZ
+8   tGravityAccmeanZ  
 -time signal;gravity signal;body accelereration;mean value;X,Y & Z axial
 
 9    tGravityAccstdX
 10   tGravityAccstdY
-11   tGravityAccstdZ
+11   tGravityAccstdZ  
 -time signal;gravity signal;body acceleration;standard deviation;X,Y & Z axial
 
 12  tBodyAccJerkstdX
 13  tBodyAccJerkstdY
-14  tBodyAccJerkstdZ
+14  tBodyAccJerkstdZ  
 -time signal;body signal; body acceleration;jerk signal;standard deviation;X,Y & Z axial
 
 15 tBodyGyroJerkstdX
 16 tBodyGyroJerkstdY
-17 tBodyGyroJerkstdZ
+17 tBodyGyroJerkstdZ  
 -time signal;body signal;gyroscope measure;jerk signal;standard deviation;X,Y & Z axial
 
 18     fBodyAccmeanX
 19     fBodyAccmeanY
-20     fBodyAccmeanZ
+20     fBodyAccmeanZ  
 -frequency domain signal;body acceleration;mean value;X,Y & Z axial
 
 21      fBodyAccstdX
 22      fBodyAccstdY
-23      fBodyAccstdZ
+23      fBodyAccstdZ  
 -frequency domain signal;body acceleration;standard deviation;X,Y & Z axial
 
 24  fBodyAccJerkstdX
 25  fBodyAccJerkstdY
-26  fBodyAccJerkstdZ
+26  fBodyAccJerkstdZ  
 -frequency domain signal;body acceleration;jerk signal;standard deviation;X,Y & Z axial
 
 
