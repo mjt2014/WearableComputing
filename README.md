@@ -1,14 +1,12 @@
-##########################################################################################################
-##############################run_analysis.R##############################################################
-##########################################################################################################
-## Coursera - Johns Hopkins University - Getting and Cleaning Data project - MJT 2014 2014-08-17 #########
-##########################################################################################################
+Coursera - Johns Hopkins University - Getting and Cleaning Data project - MJT 2014 2014-08-17 
+
 
 It is assumed that the data has already been downloaded from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 and unzipped into a folder called "UCI HAR Dataset" in the working directory.
 
 ##########################################################################################################
+## ReadMe.md for run_analysis.R
 The run_analysis.R file contains the following 6 functions for 
 
 1. fnMain() 
@@ -18,7 +16,7 @@ It can either be instantiated with its child functions, or have its functions ca
 
 fnMain can be instantiated as an OO class and functions subsequently called:
 eg. 
-> f<- Main("UCI HAR Dataset")
+> f<- Main("UCI HAR Dataset")  
 > f$getSummary_TrainTest()
 
 OR
