@@ -16,6 +16,17 @@ This is the root function containing all other functions and variables for cachi
 It accepts the folder (eg."UCI HAR Dataset") path as a parameter.
 It can either be instantiated with its child functions, or have its functions called as static functions. (See below)
 
+fnMain can be instantiated as an OO class and functions subsequently called:
+eg. 
+> f<- Main("UCI HAR Dataset")
+> f$getSummary_TrainTest()
+
+OR
+
+Can be treated as a static class/function:
+eg.
+> fnMain("UCI HAR Dataset")$getSummary_TrainTest()
+
 2. readcsv()
 Wrapper function for the R base read.csv function passing in attributes. It accepts the filename and optionally the parent folder as a parameter (eg. "test\\subject_test.txt"), but also uses the root folderpath property from fnMain.
 
@@ -37,15 +48,4 @@ Wrapper function for the R base read.csv function passing in attributes. It acce
 6. getAverage_TrainTest()
 - Applies an average calculation per activity and subject to the data frame retrieved from the getMerged_TrainTest().function.
 
-##########################################################################################################
-fnMain can be instantiated as an OO class and functions subsequently called:
-eg. 
-> f<- Main("UCI HAR Dataset")
-> f$getSummary_TrainTest()
-
-OR
-
-Can be treated as a static class/function:
-eg.
-> fnMain("UCI HAR Dataset")$getSummary_TrainTest()
 ##########################################################################################################
